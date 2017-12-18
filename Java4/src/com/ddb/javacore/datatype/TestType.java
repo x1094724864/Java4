@@ -5,16 +5,15 @@ public class TestType {
 	public static void main(String[] args) {
 		double score = 98.55;
 		String name = "三胖";
-		char sex = '男';
+		char sex = 'M';
 
 		System.out.println("本次考试成绩最高分：" + score);
 		System.out.println("最高分得主：" + name);
 		System.out.println("性别：" + sex);
 
 		/*
-		 * int money; //声明一个变量
-		 *  money = 1000;// 给变量赋值
-		 */ 
+		 * int money; //声明一个变量 money = 1000;// 给变量赋值
+		 */
 		int money = 1000; // 声明并赋值
 
 		// 使用变量
@@ -36,19 +35,19 @@ public class TestType {
 		// System.out.println("num is :" + num);
 		// num =36; //再次给常量赋值则不允许的！
 		// System.out.println("change num is :" + num);
-		
-		//基本数据类型转换，大int转小short需要强制转换
+
+		// 基本数据类型转换，大int转小short需要强制转换
 		short price;
 		price = (short) money;
-		
+
 		System.out.println("price is : " + price);
-		
-		short price2 = (short)236;
-		//基本数据类型转换，小short转大long，直接自动转换
+
+		short price2 = (short) 236;
+		// 基本数据类型转换，小short转大long，直接自动转换
 		long testlong;
 		testlong = price2;
 		System.out.println("testlong is :" + testlong);
-		
+
 	}
 
 }
